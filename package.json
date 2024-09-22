@@ -1,11 +1,11 @@
 {
   "name": "v1",
-  "description": "Personal Website V1",
+  "description": "My Personal Website",
   "version": "1.0.0",
   "author": "Aravind Potluri <aravindswami135@gmail.com>",
   "repository": {
     "type": "git",
-    "url": "https://cipherswami.github.io"
+    "url": "https://github.com/cipherswami/cipherswami.github.io"
   },
   "keywords": [
     "gatsby"
