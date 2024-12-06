@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import PropTypes from 'prop-types';
 import { CSSTransition, TransitionGroup } from 'react-transition-group';
-import { email } from '@config';
+// import { email } from '@config';
 import styled from 'styled-components';
 import { theme, mixins, media, Section } from '@styles';
 const { colors, fontSizes, fonts, navDelay, loaderDelay } = theme;
@@ -35,13 +35,13 @@ const StyledTitle = styled.h2`
   ${media.phone`font-size: 40px;`};
 `;
 const StyledSubtitle = styled.h3`
-  font-size: 80px;
+  font-size: 35px;
   line-height: 1.1;
   color: ${colors.slate};
-  ${media.desktop`font-size: 70px;`};
-  ${media.tablet`font-size: 60px;`};
-  ${media.phablet`font-size: 50px;`};
-  ${media.phone`font-size: 40px;`};
+  ${media.desktop`font-size: 35px;`};
+  ${media.tablet`font-size: 30px;`};
+  ${media.phablet`font-size: 28px;`};
+  ${media.phone`font-size: 25px;`};
 `;
 const StyledDescription = styled.div`
   margin-top: 25px;
@@ -51,10 +51,10 @@ const StyledDescription = styled.div`
     ${mixins.inlineLink};
   }
 `;
-const StyledEmailLink = styled.a`
-  ${mixins.bigButton};
-  margin-top: 50px;
-`;
+// const StyledEmailLink = styled.a`
+//   ${mixins.bigButton};
+//   margin-top: 50px;
+// `;
 
 const Hero = ({ data }) => {
   const [isMounted, setIsMounted] = useState(false);
@@ -81,13 +81,13 @@ const Hero = ({ data }) => {
       dangerouslySetInnerHTML={{ __html: html }}
     />
   );
-  const five = () => (
-    <div style={{ transitionDelay: '500ms' }}>
-      <StyledEmailLink href={`mailto:${email}`}>Get In Touch</StyledEmailLink>
-    </div>
-  );
+  // const five = () => (
+  //   <div style={{ transitionDelay: '500ms' }}>
+  //     <StyledEmailLink href={`mailto:${email}`}>Get In Touch</StyledEmailLink>
+  //   </div>
+  // );
 
-  const items = [one, two, three, four, five];
+  const items = [one, two, three, four];
 
   return (
     <StyledContainer>

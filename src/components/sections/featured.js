@@ -113,12 +113,13 @@ const StyledFeaturedImg = styled(Img)`
   border-radius: ${theme.borderRadius};
   position: relative;
   mix-blend-mode: multiply;
-  filter: grayscale(100%) contrast(1) brightness(90%);
+  // filter: grayscale(1%) contrast(1) brightness(90%);
+  transition: transform 0.3s ease;
   ${media.tablet`
     object-fit: cover;
     width: auto;
     height: 100%;
-    filter: grayscale(100%) contrast(1) brightness(80%);
+    // filter: grayscale(1%) contrast(1) brightness(80%);
   `};
 `;
 const StyledImgContainer = styled.a`
@@ -127,7 +128,7 @@ const StyledImgContainer = styled.a`
   grid-row: 1 / -1;
   position: relative;
   z-index: 1;
-  background-color: ${colors.green};
+  background-color: ;
   border-radius: ${theme.radius + 1}px;
   transition: ${theme.transition};
   ${media.tablet`height: 100%;`};
@@ -142,6 +143,7 @@ const StyledImgContainer = styled.a`
     ${StyledFeaturedImg} {
       background: transparent;
       filter: none;
+      transform: scale(0.95);
     }
   }
   &:before {
@@ -155,7 +157,7 @@ const StyledImgContainer = styled.a`
     bottom: 0;
     z-index: 3;
     transition: ${theme.transition};
-    background-color: ${colors.navy};
+    // background-color: ${colors.navy};
     mix-blend-mode: screen;
   }
 `;

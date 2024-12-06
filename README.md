@@ -1,49 +1,20 @@
-# My Website
+# My Personal Website 🌐
 
-Aravind Swami Potluri's (CIPH3R) website repository.
+Welcome to my personal website repository! This is where I share my portfolio, projects, and interests.
 
-> Checkout the webpage [here](https://cipherswami.github.io)
+Check out the live site here: [Aravind Potluri](https://cipherswami.github.io)
 
----
+## 🛠️ Build Instructions
 
-Yes, you can fork this repo. Please give proper credit by linking back to [brittanychiang.com](https://brittanychiang.com). Thanks!
+Detailed build instructions can be found in the [here](Build.md).
 
-## 🛠 Installation & Set Up
+## 🙌 Credits
 
-1. Install the Gatsby CLI
+- **Original Design**: [Brittany Chiang](https://brittanychiang.com/)
+- **Redesigned & Customized By**: [Aravind Potluri](https://cipherswami.github.io)
 
-   ```sh
-   npm install -g gatsby-cli
-   ```
+## 📄 License
 
-2. Install and use the correct version of Node using [NVM](https://github.com/nvm-sh/nvm)
+This project is licensed under the [MIT License](LICENSE).
 
-   ```sh
-   nvm install
-   ```
-
-3. Install dependencies
-
-   ```sh
-   yarn
-   ```
-
-4. Start the development server
-
-   ```sh
-   npm start
-   ```
-
-## 🚀 Building and Running for Production
-
-1. Generate a full static production build
-
-   ```sh
-   npm run build
-   ```
-
-1. Preview the site as it will appear once deployed
-
-   ```sh
-   npm run serve
-   ```
+If you like the website, give this repository a ⭐ on GitHub! 😊

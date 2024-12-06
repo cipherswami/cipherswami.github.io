@@ -1,8 +1,7 @@
 module.exports = {
   siteTitle: 'Aravind Potluri',
-  siteDescription:
-    'Diving deep into the realms of networking and cybersecurity, driven by the thrill of challenges to innovate and secure byte by byte!',
-  siteKeywords: 'Aravind Potluri, Aravind, Potluri, Kernel Developer, IIST, IITK',
+  siteDescription: 'Systems Software Dev, still tring to figure how to exit vim.',
+  siteKeywords: 'Aravind Potluri, Aravind, Potluri, Systems software, Kernel Developer, IIST, IITK',
   siteUrl: 'https://cipherswami.github.io/',
   siteLanguage: 'en_US',
   name: 'Aravind Potluri',
