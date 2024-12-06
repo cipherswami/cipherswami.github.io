@@ -15,6 +15,6 @@ Detailed build instructions can be found in the [here](Build.md).
 
 ## 📄 License
 
-This project is licensed under the [MIT License](LICENSE).
+This project is licensed under the [MIT License](LICENSE.md).
 
 If you like the website, give this repository a ⭐ on GitHub! 😊
