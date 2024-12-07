@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
-Sitemap: https://cipherswami.github.io/sitemap.xml
+Sitemap: https://cipherswami.github.io/sitemap-index.xml
 Host: https://cipherswami.github.io
