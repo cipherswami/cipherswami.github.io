@@ -10,4 +10,4 @@ tech:
   - PyPI
 ---
 
-Pylibdsa is a Python library that simplifies the implementation of essential data structures and algorithms. It provides efficient, easy-to-use solutions to enhance problem-solving skills. Ideal for developers and students looking to optimize their code and deepen their understanding of algorithms.
+It is a Python library that simplifies the implementation of essential data structures and algorithms. Ideal for developers and students looking to optimize their code and deepen their understanding of algorithms.

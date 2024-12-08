@@ -70,7 +70,7 @@ const Footer = () => {
     if (process.env.NODE_ENV !== 'production') {
       return;
     }
-    fetch('https://api.github.com/repos/cipherswami/cipherswami.github.io')
+    fetch('https://api.github.com/repos/bchiang7/v4')
       .then(response => response.json())
       .then(json => {
         const { stargazers_count, forks_count } = json;
@@ -102,7 +102,7 @@ const Footer = () => {
       </StyledSocial>
       <StyledMetadata tabindex="-1">
         <StyledGitHubLink
-          href="https://github.com/cipherswami/cipherswami.github.io"
+          href="https://brittanychiang.com"
           target="_blank"
           rel="nofollow noopener noreferrer">
           <div>
@@ -111,7 +111,6 @@ const Footer = () => {
             <br></br>
             Build by Brittany Chiang
           </div>
-
           {githubInfo.stars && githubInfo.forks && (
             <StyledGitHubInfo>
               <span>

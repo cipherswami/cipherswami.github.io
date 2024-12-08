@@ -18,18 +18,12 @@
    yarn
    ```
 
-4. Start the development server
-
-   ```sh
-   npm start
-   ```
-
 ## 🚀 Building and Running for Production
 
-1. Preview the site as it will appear once deployed
+1. Develop the site for production
 
    ```sh
-   npm run serve
+   npm run develop
    ```
 
 2. Deploy to Production

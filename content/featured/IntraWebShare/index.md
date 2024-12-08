@@ -1,5 +1,5 @@
 ---
-date: '3'
+date: '1'
 title: 'IntraWeb Share'
 cover: './IntraWebSharePic.png'
 github: 'https://github.com/intentlab-iitk/intra-webshare'
@@ -12,4 +12,4 @@ tech:
 showInProjects: true
 ---
 
-IntraWeb Share is a web-based file-sharing platform allows secure file transfers within an internal network (intranet). It guarantees fast and reliable exchanges, and offers a user-friendly interface making it an ideal solution for file sharing.
+IntraWeb Share is a web-based file-sharing platform allows secure file transfers in a intranet (Internal network). It guarantees fast and reliable exchanges, and offers a user-friendly interface making it an ideal solution for file sharing.

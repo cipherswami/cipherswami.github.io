@@ -15,7 +15,14 @@ const IconLogo = () => (
         />
       </g>
     </g>
-    <text x="28" y="60" fill="currentColor" fontSize="50px" fontFamily="Consolas, serif">
+    <text
+      x="50%"
+      y="50%"
+      fill="currentColor"
+      fontSize="55px"
+      fontFamily="Consolas, serif"
+      textAnchor="middle"
+      dominantBaseline="middle">
       A
     </text>
   </svg>

@@ -12,8 +12,14 @@ module.exports = {
     `gatsby-plugin-styled-components`,
     `gatsby-plugin-sharp`,
     `gatsby-transformer-sharp`,
-    `gatsby-plugin-sitemap`,
     `gatsby-plugin-robots-txt`,
+    {
+      resolve: `gatsby-plugin-sitemap`,
+      options: {
+        output: `/sitemap-index.xml`,
+        siteUrl: config.siteUrl,
+      },
+    },
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
@@ -140,9 +146,12 @@ module.exports = {
       },
     },
     {
-      resolve: `gatsby-plugin-google-analytics`,
+      resolve: `gatsby-plugin-google-gtag`,
       options: {
-        trackingId: config.googleAnalyticsID,
+        trackingIds: [config.googleAnalyticsID],
+        pluginConfig: {
+          head: true,
+        },
       },
     },
   ],

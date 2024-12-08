@@ -20,8 +20,12 @@ const StyledContainer = styled.div`
   z-index: 99;
 `;
 const StyledLogo = styled.div`
-  width: max-content;
+  width: 100px;
+  height: 100px;
   max-width: 100px;
+  max-height: 100px;
+  // width: max-content;
+  // max-width: 100px;
   transition: ${theme.transition};
   opacity: ${props => (props.isMounted ? 1 : 0)};
   svg {

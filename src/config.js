@@ -6,7 +6,7 @@ module.exports = {
   siteLanguage: 'en_US',
   name: 'Aravind Potluri',
   googleAnalyticsID: 'G-FHVXWXYK4G',
-  // googleVerification: 'DCl7VAf9tcz6eD9gb67NfkNnJ1PKRNcg8qQiwpbx9Lk',
+  googleVerification: 'e9WKv5KR2VkJciIr_uTlG4_ORQoHZ4OIQYkUFUuUOtI',
   location: 'Visakhapatnam, India',
   email: 'aravindswami135@gmail.com',
   github: 'https://github.com/cipherswami',
