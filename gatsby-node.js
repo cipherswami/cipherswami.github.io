@@ -100,3 +100,34 @@ exports.onCreateWebpackConfig = ({ stage, loaders, actions }) => {
     },
   });
 };
+
+// gatsby-node.js
+
+const fs = require('fs');
+
+exports.sourceNodes = ({ actions, createNodeId, createContentDigest }) => {
+  const { createNode } = actions;
+
+  const resumesPath = path.join(__dirname, 'static/resumes');
+  if (!fs.existsSync(resumesPath)) {return;}
+
+  const files = fs.readdirSync(resumesPath).filter(file => file.endsWith('.pdf'));
+
+  files.forEach(file => {
+    const nodeData = {
+      title: file.replace(/_/g, ' ').replace(/\.pdf$/, ''),
+      filePath: `/resumes/${file}`,
+    };
+
+    createNode({
+      ...nodeData,
+      id: createNodeId(`resume-${file}`),
+      parent: null,
+      children: [],
+      internal: {
+        type: 'Resume',
+        contentDigest: createContentDigest(nodeData),
+      },
+    });
+  });
+};

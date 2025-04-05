@@ -37,8 +37,6 @@ export const pageQuery = graphql`
           frontmatter {
             title
             name
-            subtitle
-            buttonText
           }
           html
         }

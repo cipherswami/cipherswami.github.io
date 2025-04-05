@@ -14,8 +14,9 @@ import {
   IconLogo,
   IconPlayStore,
   IconStar,
-  IconTwitter,
+  IconX,
   IconZap,
+  IconDownload,
 } from '@components/icons';
 
 const FormattedIcon = ({ name }) => {
@@ -46,10 +47,14 @@ const FormattedIcon = ({ name }) => {
       return <IconPlayStore />;
     case 'Star':
       return <IconStar />;
+    case 'X':
+      return <IconX />;
     case 'Twitter':
-      return <IconTwitter />;
+      return <IconX />;
     case 'Zap':
       return <IconZap />;
+    case 'Download':
+      return <IconDownload />;
     default:
       return <IconExternal />;
   }

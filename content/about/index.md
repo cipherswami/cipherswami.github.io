@@ -10,6 +10,6 @@ skills:
   - SPI, I2C, UART...
 ---
 
-Hello! I'm Aravind Potluri, a systems software enthusiast with expertise in Computer Networks and Operating Systems. I am passionate about developing efficient, high-performance software that seamlessly integrates with hardware to deliver reliable solutions.
+I am a developer passionate about building efficient, high-performance software that integrates seamlessly with hardware. My focus areas include firmware, systems, and kernel development, where I enjoy working close to the metal to solve complex, low-level challenges.
 
-I am eager to explore opportunities in Firmware, Systems, or Kernel Development, where I can apply my technical expertise, tackle challenging problems, and contribute to innovative projects while continuing to grow as a developer.
+I am actively seeking opportunities to contribute to impactful, forward-looking projects while continuing to grow as a systems developer. I value clean, reliable code and strive to deliver robust solutions that power real-world applications..

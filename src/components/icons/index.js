@@ -12,5 +12,6 @@ export { default as IconLocation } from './location';
 export { default as IconLogo } from './logo';
 export { default as IconPlayStore } from './playstore';
 export { default as IconStar } from './star';
-export { default as IconTwitter } from './twitter';
+export { default as IconX } from './x';
 export { default as IconZap } from './zap';
+export { default as IconDownload } from './downloads.js';
